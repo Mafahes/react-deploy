@@ -1,0 +1,51 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", arial;
+    font-weight: 300;
+    display: flex;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+ol, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+#root {
+    width: 100%;
+}
+
+.main-content {
+
+    margin-left: 80px;
+    width: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+canvas{
+    top: 0px;
+    left: 0px;
+    background-color:#000;
+    z-index : -1;
+}
